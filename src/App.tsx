@@ -1,7 +1,6 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import CurrentMood from './comp/CurrentMood'
-import viteLogo from '/vite.svg'
+import ChangeButton from './comp/ChangeButton'
+import Header from './comp/Header'
 import './App.css'
 
 function App() {
@@ -9,7 +8,11 @@ function App() {
 
   return (
     <>
+    <Header/>
     <CurrentMood/>
+    <ChangeButton textButton={"Happy 😀"} onClick={() => (console.log(1))}/>
+    <ChangeButton textButton={"Sad 😢"} onClick={() => (console.log(2))}/>
+    <ChangeButton textButton={"Angry 😡"} onClick={() => (console.log(3))}/>
     </>
   )
 }

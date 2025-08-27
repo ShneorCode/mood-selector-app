@@ -2,9 +2,18 @@
   text-align: center;
 }
 
-
-
 .CurrentMood {
   font-size: larger;
+}
 
+h1 {
+  color: rgb(113, 186, 237);
+}
+
+
+
+
+.change-button {
+  width: 100px;
+  height: 50px;
 }
